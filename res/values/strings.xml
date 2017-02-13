@@ -1,9 +1,0 @@
-<resources>
-    <string name="app_name">Drug Compare</string>
-    <string name="edit_message">Enter a drug</string>
-    <string name="button_send">Enter</string>
-    <string name="edit_message2">Enter a drug</string>
-    <string name="button_send2">Enter</string>
-    <string name="action_settings">Add</string>
-    <string name="title_activity_fab">FAB</string>
-</resources>
