@@ -1,4 +1,4 @@
-package com.example.drugcompare;
+package com.example.floatingtest;
 
 public class interactionType {
 	private String comment;

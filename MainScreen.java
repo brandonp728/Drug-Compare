@@ -1,4 +1,4 @@
-package com.example.drugcompare;
+package com.example.floatingtest;
 
 import android.os.Bundle;
 import android.os.StrictMode;
@@ -26,8 +26,8 @@ import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 
 public class MainScreen extends AppCompatActivity {
-    public final static String EXTRA_MESSAGE = "com.example.drugcompare.MESSAGE";
-    public final static String EXTRA_2 = "com.example.drugcompare.MESSAGE";
+    public final static String EXTRA_MESSAGE = "com.example.floatingtest.MESSAGE";
+    public final static String EXTRA_2 = "com.example.floatingtest.MESSAGE";
 
     static Integer[] rxcuis = {313820, 1009145, 197321, 198520, 197636, 314119, 856987, 1603495, 1020477, 198603, 1011482, 998254, 997272};
 
@@ -146,7 +146,7 @@ public class MainScreen extends AppCompatActivity {
 
         return null;
     }
-    public void sendMessage(View view)throws Exception {
+    public void sendDrugMessage(View view)throws Exception {
         Intent intent = new Intent(this, DisplayMessageActivity.class);
         int rxcui = Integer.parseInt(view.getTag().toString());
         drug d = pullAllInfo(rxcui);
