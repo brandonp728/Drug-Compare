@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.Toolbar
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        android:layout_height="60dp"
+        android:layout_width="match_parent"
+        android:minHeight="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+
+        android:id="@+id/toolbar" />
+
+
+    <Button
+        android:text="Xanax"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/button"
+        android:onClick="sendMessage"
+        android:tag="197321"/>
+
+    <Button
+        android:text="Adderall"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/button2"
+        android:onClick="sendMessage"
+        android:tag="1009145"/>
+    <Button
+        android:text="Acetaminophen"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/button3"
+        android:onClick="sendMessage"
+        android:tag="313820"/>
+
+    <Button
+        android:text="Codeine"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/button4"
+        android:onClick="sendMessage"
+        android:tag="997272"/>
+
+    <Button
+        android:text="Pseudoephedrine"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/button5"
+        android:onClick="sendMessage"
+        android:tag="998254"/>
+    <Button
+        android:text="Caffeine"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/button6"
+        android:onClick="sendMessage"
+        android:tag="198520"/>
+    <Button
+        android:text="THC"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/button7"
+        android:onClick="sendMessage"
+        android:tag="197636"/>
+    <Button
+        android:text="Nicotine"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/button8"
+        android:onClick="sendMessage"
+        android:tag="314119"/>
+    <Button
+        android:text="Hydrocodone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/button9"
+        android:onClick="sendMessage"
+        android:tag="856987"/>
+    <Button
+        android:text="Fentanyl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/button10"
+        android:onClick="sendMessage"
+        android:tag="1603495"/>
+    <Button
+        android:text="Diphenhydramine"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/button11"
+        android:onClick="sendMessage"
+        android:tag="1020477"/>
+    <Button
+        android:text="Dimenhydrinate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/button12"
+        android:onClick="sendMessage"
+        android:tag="198603"/>
+
+
+
+</LinearLayout>
