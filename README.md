@@ -4,12 +4,5 @@ Drug Compare was created as an entry to SteelHacks 2017. Before the start of thi
 
 ###### **Created by:**
 
-
-brandonp728
-
-jfw20
-
-ryan
-
-jacob
+brandonp728, jfw20, ryan, jacob
 
